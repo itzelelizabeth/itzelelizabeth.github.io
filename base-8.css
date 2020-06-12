@@ -168,7 +168,7 @@ a.fancy-link:link,
     text-transform: uppercase;
     font-weight: bold;
     font-family: sans-serif;
-    letter-spacing: 1px
+    letter-spacing: 1px;
     line-height: 1
  }
 
@@ -198,8 +198,6 @@ a.btn-ghost:hover, .btn-ghost:active {
 a.btn-soft { border-radius: 5px }
 a.btn-round { border-radius: 25px }
 
-     }
-}
 /* ==== TEXT BOXES ==== */s
 .important-note-1 { 
     margin: 42px 0 42px 0;
