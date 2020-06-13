@@ -38,18 +38,67 @@
 
 <body>
 
+
+	<!-- Begin desktop menu -->
+    <div class="container-menu-desktop menu-light menu-sticky">
+        <!-- first child item -->
+        <a href="#"><img src="assets/img/smoothies-logo.png" alt="website logo"></a>  
+        <!-- second child item -->
+        <ul>
+			<li><a href="#watermelon">Watermelon</a></li>
+			<li><a href="#apple">Apple</a></li>
+			<li><a href="#blueberry">Blueberry</a></li>
+			<li><a href="#lemon">Lemon</a></li>
+			<li><a href="#signup" class="btn-cta"><i class="fas fa-envelope"></i> Newsletter</a></li>  
+		  </ul>
+    </div>
+    <!-- End desktop menu -->
+
+
+    <!-- Begin mobile menu bar -->
+    <div class="container-menu-bar-mobile menu-light menu-sticky">
+            <!-- first child -->
+            <a href="#"><img src="assets/img/smoothies-logo.png" alt="website logo"></a> 
+            <!-- second child -->
+            <div class="item-icon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    <!-- End mobile menu bar -->
+
+    <!-- Begin mobile menu slide-out options -->
+    <div class="flyout-menu flyout-menu-is-closed menu-light">
+		<ul>
+			<li><a href="#watermelon">Watermelon</a></li>
+			<li><a href="#apple">Apple</a></li>
+			<li><a href="#blueberry">Blueberry</a></li>
+			<li><a href="#lemon">Lemon</a></li>
+			<li><a href="#signup" class="btn-cta"><i class="fas fa-envelope"></i> Newsletter</a></li>  
+		  </ul>
+    </div>
+
+
+        <hr>
+        <h4>About Me</h4>
+        <div class="fly-out-profile-box">
+            <img src="documentos/ITZEL/Dublin/webdesign/portfolio/smoothies/assets/profile picture.jpg">
+            <p>Hi, I'm <b>Itzel Elizalde</b>, a graphic designer based in Dublin, Ireland.</p>
+        </div>
+   
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+    <!-- End mobile menu slide-out options -->
+
 	<!-- Begin hero block -->
 	<div class="container-hero">
 		<h1>Smooth Smoothies</h1>
 		<h2>Where flavour meets goodness</h2>
 	</div>
 	<!-- End hero block -->
-
-    <!-- Begin blank lines-->
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <!-- End blank lines-->
 
 	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
 	<div class="container-flexbox">
@@ -65,7 +114,7 @@
     <!-- End blank lines-->
 
 	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-watermelon">
+	<div class="container-flexbox bg-watermelon" id="watermelon">
 
 		<div class="item-2">
 			<h2>Watermelon Wonder</h2>
@@ -81,7 +130,7 @@
 
     
 	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-apple">
+	<div class="container-flexbox bg-apple" id= "apple">
 
 		<div class="item-2">
 
@@ -96,14 +145,10 @@
 
     </div><!-- End parent flexbox container -->
 
-    <!-- Begin blank lines-->
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <!-- End blank lines-->
+    
 
 	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-blueberry">
+	<div class="container-flexbox bg-blueberry" id="blueberry">
 
 		<div class="item-2">
 			<h2>Blueberry Surprise</h2>
@@ -116,14 +161,9 @@
 
 	</div><!-- End parent flexbox container -->
 
-    <!-- Begin blank lines-->
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <!-- End blank lines-->
 
 	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
-	<div class="container-flexbox bg-lemon">
+	<div class="container-flexbox bg-lemon" id="lemon">
 
         <div class="item-2">
 			<img src="assets/img/lemon.png" alt="Lemon Luxury smoothie">
@@ -140,7 +180,7 @@
 <!-- =============== BEGIN EMAIL SIGN UP FORM HTML ============= -->
 
 	<!-- Begin container for email signup form -->
-	<div class="container-form-email-signup">
+	<div class="container-form-email-signup" id="signup"	>
 
 		<h3>Join our email list</h3>
 <p>Keep me up-to-date with your latest healthy smoothie recipes and special offers.</p>  
@@ -165,6 +205,114 @@
 	<!-- =============== END EMAIL SIGN UP FORM HTML ============= -->
 
 
+
+	<!-- Begin HTML footer -->
+
+	<div class="container-footer">
+
+		<div class="item-3">
+
+			<h4>Site Map</h4>
+			<p><i class="fas fa-home fa-fw"></i><a href="../../index.html">Home</a></p>
+			<p><i class="fas fa-file-alt fa-fw"></i><a href="../index.html">Portfolio</a></p>
+			<p><i class="fas fa-lock fa-fw"></i><a href="../../privacy.html">Privacy</a></p>
+		
+		</div>
+
+		<div class="item-3">
+			<h4>About Me</h4>
+			<p>Hi, I'm Itzel Elizalde. I'm a Graphic & Web Designer.</p>
+			
+			<p>I created this sample web page to showcase some of my digital creation skills.</p>
+		</div>
+
+		<div class="item-3">
+			<h4>Contact</h4>
+			<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:itzelelizabeth94@gmail.com">Email</a></p>
+			<p><i class="fab fa-github-square fa-fw"></i><a href="https://www.github.com/itzelelizabeth" target="_blank">GitHub</a></p>
+			<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/itzel-elizalde-b9b785106/" target="_blank">Linkedin</a></p>
+		</div>
+		
+	</div>
+	
+	<!-- End HTML footer -->
+
+
+<!-- Begin JavaScript code for desktop and mobile menus -->
+<script>
+
+	// Code to detect click of option within fly-out menu
+	let specifiedElement = document.querySelector('.flyout-menu');
+	document.addEventListener('click', function(event) {
+		var isClickInside = specifiedElement.contains(event.target);
+		//If link is within current web page
+		if (isClickInside) {
+			//Get id of anchor
+			let anchor_id = window.location.hash;
+			//Add extra spacing above anchor
+			let elemAnchor = document.querySelector(anchor_id)
+			elemAnchor.classList.add('sticky-anchor');
+			//Close fly-out menu
+			toggleMobileMenu();
+		}
+		else {
+			return;
+		}
+	});
+
+	// Code to show/hide fly-out mobile menu -->
+	document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+	const pageContainer = document.querySelector('.page-container');
+
+	function toggleMobileMenu() {
+		//toggle hamburger icon
+		const elemIcon = document.querySelector('.item-icon');
+		elemIcon.classList.toggle("change");
+		const elemHTML = document.querySelector('html');
+		const elemBody = document.querySelector('body');            
+		const elemFlyOut = document.querySelector('.flyout-menu');
+
+		//if fly-out menu is currently closed, open it.
+		if (elemIcon.classList.contains('change')) {
+			elemFlyOut.classList.remove('flyout-menu-is-closed');
+			elemFlyOut.classList.add('flyout-menu-is-open');
+			elemHTML.classList.add('no-scroll');
+			elemBody.classList.add('no-scroll');
+		}    
+		//if fly-out menu is currently open, close it.
+		else {
+			elemFlyOut.classList.remove('flyout-menu-is-open');
+			elemFlyOut.classList.add('flyout-menu-is-closed');
+			elemHTML.classList.remove('no-scroll');
+			elemBody.classList.remove('no-scroll');                                
+		}
+	}
+
+	// Code for menus with transparent background
+	//window.onscroll = function() {swapMenuStyle()};
+	const headerDesktop = document.querySelector('.container-menu-desktop');
+	const headerMobile = document.querySelector('.container-menu-bar-mobile');
+
+	const stickyDesktop = headerDesktop.offsetTop +300;
+	const stickyMobile = headerDesktop.offsetTop  +300;
+
+	function swapMenuStyle() {
+		if (window.pageYOffset > stickyDesktop) {
+			headerDesktop.classList.add("menu-light","menu-drop-shadow");
+			headerDesktop.classList.remove("menu-transparent");
+			headerMobile.classList.add("menu-light","menu-drop-shadow");
+			headerMobile.classList.remove("menu-transparent");
+
+		} else {
+			headerDesktop.classList.add("menu-transparent");
+			headerDesktop.classList.remove("menu-light","menu-drop-shadow");
+			headerMobile.classList.add("menu-transparent");
+			headerMobile.classList.remove("menu-light","menu-drop-shadow");
+		}
+	}
+
+</script>
+<!-- End JavaScript code for desktop and mobile menus -->
 
 
 	<!-- JavaScript for Cookie Consent Popup Message -->
